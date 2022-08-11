@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+h1{
+    height: 100px;
+    background-color: rgb(181, 125, 70);
+    text-align: center;
+    color: rgb(75, 8, 8);
+    padding: 20px;
+}
+nav{
+    color: aliceblue;
+    background-color: rgb(65, 13, 13);
+    display: grid;
+    place-items: right;
+}
+nav ul{
+    height: 100px;
+    list-style-type: none;
+}
+nav ul a{
+
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    transition: 0.2 ease-in;
+
+}
+nav ul a:hover {
+    background-color: rgb(193, 122, 69);
+    color:white;
+}
+div{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(200, 157, 63);
+}
+#im1{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+
+}
+img{
+    width: 400px;
+    height: 400px;
+    margin: 10px 10px 10px 10px;
+    align-items: center;
+    border-radius: 10px;
+}
+p{
+    width: 70%;
+    height: 400px;
+    color: rgb(50, 6, 6);
+    font-size: x-large;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+#sty{
+    font-size: x-large;
+    color: rgb(214, 149, 58);
+    background-color: rgb(78, 10, 9);
+    position: sticky;
+    top: 0px;
+    font-family: 'BhuTuka Expanded One', cursive;
+
+}
+#stt{
+    background-color: rgb(223, 188, 71);
+    position: sticky;
+    top: 0px;
+    font-family: 'BhuTuka Expanded One', cursive;
+}
+.bac{
+    margin: 0;
+    padding: border-box;
+    background-color: rgb(60, 5, 5);
+
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+    background-color: rgb(60, 5, 5);
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(60, 5, 5);
+}
+ul{
+    list-style: none;
+
+}
+.footer{
+    padding: 70px 0;
+    background-color: rgb(60, 5, 5);
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+    background-color: rgb(60, 5, 5);
+}
+.footer-col h4{
+    font-size: 18px;
+    color: rgb(225, 216, 216);
+    text-transform: capitalize;
+    margin: 30px;
+}
+
+.d2{
+    width: 70%;
+    height: 400px;
+}
+li{
+    color: rgb(234, 226, 226);
+}
+.qur{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(220, 166, 60);
+}
+h4{
+    color: aliceblue;
+}
+a{
+    color: aliceblue;
+}
+
